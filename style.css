@@ -5,4 +5,11 @@
 .planes {
  width: 1098px;
  height: 544px;
+ display: flex;
+}
+
+.free {
+ width: 366px;
+ display: flex;
+ flex-direction: column;
 }
