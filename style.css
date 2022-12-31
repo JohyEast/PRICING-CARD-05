@@ -1,16 +1,94 @@
 * {
  box-sizing: border-box;
  font-family: "IBM Plex Sans";
+ color: #141843;
+}
+
+body {
+ height: 100vh;
+ display: flex;
+ align-items: center;
 }
 
 .planes {
  width: 1098px;
  height: 544px;
  display: flex;
+ justify-content: center;
+ padding: 90px;
+ margin: auto;
+ border-radius: 30px;
 }
 
-.free {
+.plan {
  width: 366px;
  display: flex;
  flex-direction: column;
+}
+
+.titulo {
+ /* font-family: "Montserrat"; */
+ font-weight: 800;
+ font-size: 26px;
+ margin-bottom: 22px;
+}
+
+.tiempo {
+ font-weight: 500;
+ font-size: 16px;
+ margin-bottom: 40px;
+}
+
+.necesidad {
+ font-weight: 500;
+ font-size: 20px;
+ width: 276px;
+ height: 78px;
+ margin-bottom: 24px;
+}
+
+/* Precio */
+.peso {
+ font-weight: 700;
+ font-size: 36px;
+}
+.number {
+ font-weight: 700;
+ font-size: 62px;
+}
+
+/* botones */
+
+.b1 {
+ width: 181px;
+ height: 66px;
+ border-radius: 10px;
+ gap: 10px;
+ border: none;
+ background-color: #fc4e8c;
+ font-weight: 500;
+ font-size: 20px;
+}
+
+.b2 {
+ width: 128px;
+ height: 66px;
+ border-radius: 10px;
+ border: none;
+ gap: 10px;
+ background-color: #09e1ef;
+ font-weight: 500;
+ font-size: 20px;
+}
+
+.b3 {
+ width: 186px;
+ height: 66px;
+ border-radius: 10px;
+ border: none;
+ gap: 10px;
+ background-color: black;
+ color: white;
+ font-weight: 500;
+ font-size: 20px;
 }
